@@ -6,7 +6,7 @@ DSSP (https://github.com/cmbi/hssp/releases);
 EMAN2 (https://blake.bcm.edu/emanwiki/EMAN2);
 A Conda environment with Python 3, in which the Pandas package installed.
 
-And of course, a cryo-EM map file in MRC format.
+And of course, a cryo-EM map file in MRC format. It is better to crop the map to a smaller size containing the area of interest, while keeping the cubic shape with lengths of sides being an event number. This will make the calculations faster. With a box size of 50X50X50 or smaller, it should take a day or two to finish the entire mouse or human proteome, depending on how fast the computer is. 
 
 To run the scripts:
 1. Download PBDs from the AlaphaFold data base (https://alphafold.ebi.ac.uk/download#proteomes-section). Separate the PDB files into four subfolders in the current directory, named 001, 002, 003, 004 (to avoid having too many files in one directory, which makes it very slow to navigate).
