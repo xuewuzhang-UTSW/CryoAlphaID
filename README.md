@@ -13,7 +13,7 @@ To run the scripts:
 
 2. Launch jupyter-lab or jupyter-notebook, run “get_pdb_info.ipynb” in the current directory to generate the secondary structure statistics for all the PDBs. This only need to be run once for each PDB set.
 
-2. Run “run_colores.py”. This will generate new directories with docked PDBs.
+2. Run “run_colores.py”. Need to input the map file name and map parameters to the script. This will generate new directories with docked PDBs.
 
 3. Run “sort_scores.ipynb” in jupyter, and “calculate_fsc.py” with python. The end results are in this file: colores_CC_wRes.csv, which contain the ranked docking results. Hopefully, one of the top ones is the correct solution.
 
