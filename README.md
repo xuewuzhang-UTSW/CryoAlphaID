@@ -15,7 +15,7 @@ To run the scripts:
 
 2. Run “run_colores.py” (Need to input the map file name and map parameters to the script). This will generate new directories with docked PDBs.
 
-3. Run “sort_scores.ipynb” in jupyter, and “calculate_fsc.py” with python (need to input the map file name and parameters into the script). The end results are in this file: colores_CC_wRes.csv, which contain the ranked docking results. Hopefully, one of the top ones is the correct solution.
+3. Run “sort_scores.ipynb” in jupyter, and “calculate_fsc.py” with python (need to input the map file name and parameters into the script). The end results are in this file: colores_CC_wRes.csv, which contains the ranked docking results. You can either use Excell to inspect this file, or just use Jupyter to sort and inspect the Pandas dataframe of the results. Hopefully, one of the highly ranked docking results is the correct solution.
 
 
 XXX et al, XXXX
